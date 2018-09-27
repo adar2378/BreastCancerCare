@@ -26,3 +26,6 @@ android:
 jdk: oraclejdk8
 os:
   - linux
+  
+before_install:
+ - chmod +x gradlew
