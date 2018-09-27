@@ -26,7 +26,11 @@ android:
 jdk: oraclejdk8
 os:
   - linux
-  
+
+install:
+  - echo yes | sdkmanager "extras;m2repository;com;android;support;constraint;constraint-layout;1.0.2"
+  - echo yes | sdkmanager "extras;m2repository;com;android;support;constraint;constraint-layout-solver;1.0.2"
+
 before_install:
  - chmod +x gradlew
  - mkdir "$ANDROID_HOME/licenses" || true
