@@ -17,7 +17,7 @@ First of all,
 #### click > Build > Make Project.
 
 Then 
-#### > Run > Run nameOfYourApp.
+#### > Run > Run appName.
 
 Your project should be built and of course in the debug version.
 
